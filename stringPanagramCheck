@@ -1,0 +1,11 @@
+sentence = "leetcode"
+n = len(sentence)
+alphabet = "abcdefghijklmnopqrstuvwxyz"
+output = []
+alphabetList = list(alphabet)
+
+for alpha in sentence:
+    if alpha in alphabet and alpha not in output:
+        output.append(alpha)
+    result = len(output) == len(alphabet)
+print(result)
