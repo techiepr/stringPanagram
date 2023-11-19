@@ -1,1 +1,1 @@
-# stringPanagram
+# StringPanagram
